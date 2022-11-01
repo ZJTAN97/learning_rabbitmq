@@ -122,3 +122,14 @@ Binding analogy
 - Queue is like your destination in Singapore
 - Exchange is like one of the MRT stations in Singapore
 - Bindings are routes from your current location to the destination. There can be zero or many ways to reach it.
+
+<br>
+<br>
+
+# Spring AMQP
+
+### Work Queues
+- AKA Task Queues, the idea is to avoid doing a resource-intensive task 
+  immediately and having to wait for it to complete. 
+- Instead we schedule the task to be done later.
+- Encapsulate the task as a message and send it to the queue.
