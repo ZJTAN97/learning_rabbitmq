@@ -1,3 +1,16 @@
+## To use `rabbitmqctl`
+
+````
+docker exec -it rabbitmq bash
+
+// sample command to show all exchanges
+rabbitmqctl list_exchanges
+
+````
+
+
+<br>
+
 ## To Run Tutorial 1
 
 ```
