@@ -1,0 +1,21 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  profiles:
+    activate: usage_message
+
+
+rabbitmq:
+  queue:
+    name: test
+  jsonQueue:
+    name: json_test
+  exchange:
+    name: test
+  routingKey:
+    name: test
+  jsonRoutingKey:
+    name: json_test
